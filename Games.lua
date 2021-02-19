@@ -1,3 +1,1 @@
-return {
-["test"]
-}
+print()
