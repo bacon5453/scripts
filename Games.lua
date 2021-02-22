@@ -1,6 +1,7 @@
-local test = {606849621,286090429}
+return {
 
-return test
+["Games"] = {
+	[155615604] = true,
+	[0] = false
 
-
-print("xd")
+}}
