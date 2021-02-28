@@ -485,19 +485,7 @@ end
 			end)
 		end
 
-		do -- ui toggle
-			i.InputBegan:connect(function(input, ingui)
-				if not ingui then
-					if input.UserInputType == Enum.UserInputType.Keyboard then
-						if input.KeyCode == Enum.KeyCode.P then
-							self.gui_objs.main.Enabled = not self.gui_objs.main.Enabled
-						end
-					end
-				end
-			end)
-		end
-	end
-end
+
 
 do -- main
 	function main:Init()
@@ -847,7 +835,7 @@ EspFuncs:EspEnabled(txt)
 				for i, v in next, esp_stuff.esp_folder:GetChildren() do
 					v.Frame.Visible = esp_stuff.enabled
 				end
-end
+
 
 EspFuncs:ChamsEnabled(txt)
 				cham_stuff.enabled = not cham_stuff.enabled
@@ -856,16 +844,12 @@ EspFuncs:ChamsEnabled(txt)
 						v2.Transparency = cham_stuff.enabled and 0 or 1
 					end
 				end
-end
 
-local esp = {}
 
-function esp:init()
 main:Init()
 esp_stuff:Init()
 cham_stuff:Init()
-end
 
-return EspFuncs
-return esp
 
+return EspFuncs:EspEnabled
+return EspFuncs:ChamsEnabled
