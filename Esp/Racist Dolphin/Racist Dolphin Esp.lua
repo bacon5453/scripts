@@ -830,20 +830,7 @@ do -- cham_stuff
 end
 
 
-EspFuncs:EspEnabled(txt)
-				esp_stuff.enabled = not esp_stuff.enabled
-				for i, v in next, esp_stuff.esp_folder:GetChildren() do
-					v.Frame.Visible = esp_stuff.enabled
-				end
 
-
-EspFuncs:ChamsEnabled(txt)
-				cham_stuff.enabled = not cham_stuff.enabled
-				for i, v in next, cham_stuff.cham_folder:GetChildren() do
-					for i2, v2 in next, v:GetChildren() do
-						v2.Transparency = cham_stuff.enabled and 0 or 1
-					end
-				end
 
 
 main:Init()
@@ -851,5 +838,5 @@ esp_stuff:Init()
 cham_stuff:Init()
 
 
-return EspFuncs:EspEnabled
-return EspFuncs:ChamsEnabled
+return EspFuncs
+return EspFuncs
