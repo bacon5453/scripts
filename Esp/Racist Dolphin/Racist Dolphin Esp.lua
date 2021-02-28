@@ -842,14 +842,14 @@ do -- cham_stuff
 end
 
 
-EspEnabled(txt)
+EspFuncs:EspEnabled(txt)
 				esp_stuff.enabled = not esp_stuff.enabled
 				for i, v in next, esp_stuff.esp_folder:GetChildren() do
 					v.Frame.Visible = esp_stuff.enabled
 				end
 end
 
-ChamsEnabled(txt)
+EspFuncs:ChamsEnabled(txt)
 				cham_stuff.enabled = not cham_stuff.enabled
 				for i, v in next, cham_stuff.cham_folder:GetChildren() do
 					for i2, v2 in next, v:GetChildren() do
@@ -858,10 +858,14 @@ ChamsEnabled(txt)
 				end
 end
 
+local esp = {}
+
+function esp:init()
 main:Init()
 esp_stuff:Init()
 cham_stuff:Init()
+end
 
+return EspFuncs
+return esp
 
-return EspEnabled
-return ChamsEnabled
