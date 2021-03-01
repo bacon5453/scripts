@@ -3,7 +3,7 @@ return {
 ["Prison Life"] = {
 version = "2.0"
 
-}
+},
 
 ["Bacon Hub"] = {
 version = "1"
@@ -16,4 +16,6 @@ version = "1"
 	[1539156982] = true,
 	[1125412863] = true
 
-}}
+}
+
+}
