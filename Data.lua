@@ -7,7 +7,7 @@ version = "2.0"
 
 ["Bacon Hub"] = {
 version = "1"
-}
+},
 
 ["Owner Acs"] = {
 	[1819892405] = true,
