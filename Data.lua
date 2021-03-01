@@ -8,7 +8,7 @@ return {
 	["Jailbreak"] = {
 		version = "1.0",
 
-	},
+	}
 
 
 }
