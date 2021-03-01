@@ -10,8 +10,7 @@ version = "2.0"
 
   
   ["Creator Acs"] = {
-  [1124124] = true,
-   [12124] = true,
+
    [12124] = true
   }
   
