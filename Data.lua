@@ -6,7 +6,7 @@ version = "2.0"
  
 ["Jailbreak"] = {
   version = "1"
-  },
+  }
 
   
 
