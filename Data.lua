@@ -8,7 +8,13 @@ return {
 	["Jailbreak"] = {
 		version = "1.0"
 
-	}
-
+	},
+	
+	
+	["Script Hubs"] = {
+	["Bacon Hub"] = {
+		key = "test"
+		}
+}
 
 }
