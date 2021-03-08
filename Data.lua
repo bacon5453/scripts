@@ -13,7 +13,7 @@ return {
 	
 	["Script Hubs"] = {
 	["Bacon Hub"] = {
-		key = "test"
+		key = "Re5gQdq2zWsbwCjcjPxZjjD3"
 		}
 }
 
