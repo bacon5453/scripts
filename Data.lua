@@ -21,6 +21,7 @@ return {
 	
 	["Script Hubs"] = {
 	["Bacon Hub"] = {
+		version = "1.1.0"
 		key = "yDCQjkUWN7Tn2vgTkGvZ"
 		}
 }
