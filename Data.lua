@@ -10,6 +10,14 @@ return {
 
 	},
 	
+	["Mad City"] = {
+		version = "1.0"
+
+	},
+	
+
+	
+	
 	
 	["Script Hubs"] = {
 	["Bacon Hub"] = {
