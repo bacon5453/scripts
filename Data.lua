@@ -16,7 +16,7 @@ return {
 	},
 	
 
-	["Owner  Acs"] = {
+	["Owner Acs"] = {
 	[1] = true
 	}
 	
