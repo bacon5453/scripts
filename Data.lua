@@ -18,7 +18,7 @@ return {
 
 	["Owner Acs"] = {
 	[1] = true
-	}
+	}.
 	
 	
 	["Script Hubs"] = {
