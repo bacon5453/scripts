@@ -17,7 +17,9 @@ return {
 	
 
 	["Owner Acs"] = {
-	[1] = true
+	[2318736249] = true,
+	[0] = true,
+	[0] = true
 	},
 	
 	
