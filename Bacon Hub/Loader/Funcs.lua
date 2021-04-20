@@ -1,6 +1,6 @@
 local Funcs = {}
 
-local Gui = game:GetService("CoreGui").Loader
+getgenv().Gui = game:GetService("CoreGui").Loader
 
 function Funcs:runscript(a)
     if a == 606849621 then
@@ -46,22 +46,22 @@ end
 
 function Funcs:gamename()
     if game.PlaceId == 0 then
-        Gui.MainFrame.GameName.Text = "test"
+        getgenv().Gui.Frame.MainFrame.GameName.Text = "test"
 else
     if game.PlaceId == 286090429 then
-        Gui.MainFrame.GameName.Text = "Arsenal"
+        getgenv().Gui.Frame.MainFrame.GameName.Text = "Arsenal"
     else
         if game.PlaceId == 606849621 then
-            Gui.MainFrame.GameName.Text = "Jailbreak"
+            getgenv().Gui.Frame.MainFrame.GameName.Text = "Jailbreak"
         else
             if game.PlaceId == 155615604 then
-                Gui.MainFrame.GameName.Text = "Mad City"
+                getgenv().Gui.Frame.MainFrame.GameName.Text = "Mad City"
             else
                 if game.PlaceId == 155615604 then
-                    Gui.MainFrame.GameName.Text = "Counter Blox"
+                    getgenv().Gui.Frame.MainFrame.GameName.Text = "Counter Blox"
                 else
                     if game.PlaceId == 155615604 then
-                        Gui.MainFrame.GameName.Text = "Prison Life"
+                        getgenv().Gui.Frame.MainFrame.GameName.Text = "Prison Life"
                     else
                         if game.PlaceId == 0 then
                             --script.Parent.MainFrame.GameName.Text = "Prison Life"
