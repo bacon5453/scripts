@@ -75,6 +75,5 @@ else
 end
 end
 
-if getgenv().Loaderv2 then
+
 return Funcs
-end
