@@ -1,6 +1,5 @@
 local Funcs = {}
 
-getgenv().Gui = game:GetService("CoreGui").Loader
 
 function Funcs:runscript(a)
     if a == 606849621 then
