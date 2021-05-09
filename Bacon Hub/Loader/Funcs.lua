@@ -36,7 +36,7 @@ else
         end
     end
 end
-end
+
 
 function Funcs:gamename()
     if game.PlaceId == 0 then
