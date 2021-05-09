@@ -48,12 +48,9 @@ else
         if game.PlaceId == 606849621 then
             getgenv().Gui.Frame.MainFrame.GameName.Text = "Jailbreak"
         else
-            if game.PlaceId == 0 then
+            if game.PlaceId == 1224212277 then
                 getgenv().Gui.Frame.MainFrame.GameName.Text = "Mad City"
             else
-                if game.PlaceId == 0 then
-                    getgenv().Gui.Frame.MainFrame.GameName.Text = "Counter Blox"
-                else
                     if game.PlaceId == 155615604 then
                         getgenv().Gui.Frame.MainFrame.GameName.Text = "Prison Life"
                     else
@@ -65,7 +62,6 @@ else
             end
         end
     end
-end
 end
 
 
