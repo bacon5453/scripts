@@ -1,2 +1,2 @@
-local tpspeed = 1500--1300 
+local tpspeed = 1600--1300 
 return tpspeed
