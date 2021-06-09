@@ -61,7 +61,7 @@ else
                         getgenv().Gui.Frame.MainFrame.GameName.Text = "Prison Life"
                     else
                         if game.PlaceId == 1962086868 then
-                            --script.Parent.MainFrame.GameName.Text = "Tower Of Hell"
+                            script.Parent.MainFrame.GameName.Text = "Tower Of Hell"
                     end
                 end
             end
