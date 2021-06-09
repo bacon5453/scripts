@@ -6,6 +6,7 @@ return {
 	[286090429] = true, --Arsenal
 	[301549746] = false, --Counter Blox
 	[1962086868] = true, --Tower Of Hell
+	[0] = false,
 	[0] = false
 
 }}
