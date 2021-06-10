@@ -68,6 +68,12 @@ if not isTelepoting() then
 
 local time = CalculateTime(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame,CFrame)
 
+game:GetService("RunService").Stepped:connect(
+    function()
+        if isTelepoting() then
+            game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+        end
+    end)
 
 warn(time)
     --game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
