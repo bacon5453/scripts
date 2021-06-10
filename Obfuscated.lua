@@ -100,7 +100,7 @@ bypass(script2)
 local TeleportService = game:GetService("TeleportService")
 
 
-wait(45)
+wait(25)
 
 teleport(game:GetService("Workspace").tower.sections.finish.start.CFrame)
 
