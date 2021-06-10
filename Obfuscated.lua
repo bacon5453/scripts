@@ -111,7 +111,7 @@ while wait() do
     end
 
 
-wait(1.3)
+wait(1.5)
 game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(State)
     if State == Enum.TeleportState.Started then
         syn.queue_on_teleport("https://raw.githubusercontent.com/bacon5453/scripts/main/Obfuscated.lua")
