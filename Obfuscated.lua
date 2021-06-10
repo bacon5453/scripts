@@ -52,7 +52,7 @@ function PlayTween(Tween)
     Tween.Completed:wait()
     --print("Done")
     game:GetService("Players").LocalPlayer.Character.KillScript.Disabled = false
-	game.Wokspace.Gravity = 196
+	game.Workspace.Gravityy = 196
     Main.Teleporting = false
 end
 
@@ -66,7 +66,7 @@ function CalculateTime(Val1, Val2)
 
 function teleport(CFrame)
 if not isTelepoting() then
-game.Wokspace.Gravity = 0
+game.Workspace.Gravity = 0
 local time = CalculateTime(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame,CFrame)
 
 
