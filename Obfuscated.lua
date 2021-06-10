@@ -52,7 +52,6 @@ function PlayTween(Tween)
     Tween.Completed:wait()
     --print("Done")
     game:GetService("Players").LocalPlayer.Character.KillScript.Disabled = false
-	game.Workspace.Gravityy = 196
     Main.Teleporting = false
 end
 
