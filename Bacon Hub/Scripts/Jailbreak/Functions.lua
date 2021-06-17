@@ -1,7 +1,7 @@
 local Functions = {}
 
 
-function Functions.CheckStore(a)
+function Functions:CheckStore(a)
     if a == "Jewelry" then
     for i,v in next,game:GetService("Workspace").Jewelrys:GetChildren() do
     if v:isA("Model") and v.Extra ~= nil then
@@ -39,7 +39,7 @@ function Functions.CheckStore(a)
     end
 
 
-    function Functions.removedamageparts()
+    function Functions:removedamageparts()
         for i,v in next,game:GetService("Workspace").Jewelrys:GetDescendants() do
         if v.Name == "BarbedWire" then
         v:Destroy()
@@ -67,5 +67,15 @@ function Functions.CheckStore(a)
                 end
         
             end
+
+
+            function Functions:removedoors()
+                for i,v in next,Ws.Doors:GetChildren() do
+                if v.Name == "SwingDoor" then
+                v:Destroy()
+                end
+                end
+                
+                end
 
         return Functions
