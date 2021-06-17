@@ -59,4 +59,13 @@ function Functions.CheckStore(a)
         
         end
 
+        function Functions:UntilNotInCar()
+            while wait() do
+                if not game:GetService("Players").LocalPlayer.Character.Humanoid.Sit then
+                    break
+                end
+                end
+        
+            end
+
         return Functions
