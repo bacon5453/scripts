@@ -11,7 +11,7 @@ else
 DestoryUI()
     else
         if a == 155615604 then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/bacon5453/scripts/main/Bacon%20Hub/Scripts/Prison%20Life/gui%20v2.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/bacon5453/scripts/main/Bacon%20Hub/Games/Prison%20Life/guiv2.lua"))()
             wait()
 DestoryUI()
         else
