@@ -1,7 +1,7 @@
 return {
 
         [155615604] = { -- Prison Life
-            Disabled = false,
+            Disabled = true,
             Message = "",
             Custom_Message = false
         }
